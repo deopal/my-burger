@@ -1,0 +1,52 @@
+.Auth{
+    margin:20px auto;
+    width:80%;
+    text-align:center;
+    box-shadow:0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding:10px;
+    box-sizing:border-box;
+
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: rgb(34, 33, 33);
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    border-radius:7px;
+    background-color: rgb(122, 43, 7);
+    text-align:center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Success {
+    background-color: #64971c;
+}
+
+.Danger {
+    background-color: #d11a1a;
+}
+
+.button:hover{
+    text-decoration: none;
+
+}
+
+
+
+
+@media (min-width:600px){
+    .Auth{
+        width:500px;
+    }
+}
